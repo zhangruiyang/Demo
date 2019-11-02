@@ -26,6 +26,10 @@ public class UserController {
     public ServerResponse  register(User user){ //对象绑定
 
 
+
+
+
+
         return userService.register(user);
     }
     /*登录接口*/
